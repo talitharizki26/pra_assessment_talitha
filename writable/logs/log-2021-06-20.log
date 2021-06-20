@@ -1,0 +1,118 @@
+CRITICAL - 2021-06-20 05:51:35 --> Invalid file: penghuni/index.php
+#0 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(51): view()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->tambah()
+#4 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#8 {main}
+CRITICAL - 2021-06-20 06:25:23 --> Argument 1 passed to CodeIgniter\Database\BaseBuilder::insert() must be of the type array or null, string given, called in /home/egan06/kuliah/pengweb/pra-ass/app/Models/M_Penghuni.php on line 20
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Models/M_Penghuni.php(20): CodeIgniter\Database\BaseBuilder->insert()
+#1 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(76): App\Models\M_Penghuni->tambah()
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->hapus()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#4 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#7 {main}
+CRITICAL - 2021-06-20 06:26:57 --> Undefined variable: row
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Views/Penghuni/index.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(230): include('/home/egan06/ku...')
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(25): view()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+CRITICAL - 2021-06-20 06:27:01 --> Undefined variable: row
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Views/Penghuni/index.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(230): include('/home/egan06/ku...')
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(25): view()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+CRITICAL - 2021-06-20 06:27:08 --> Undefined variable: row
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Views/Penghuni/index.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(230): include('/home/egan06/ku...')
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(25): view()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+CRITICAL - 2021-06-20 06:27:09 --> Undefined variable: row
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Views/Penghuni/index.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(230): include('/home/egan06/ku...')
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(25): view()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+CRITICAL - 2021-06-20 06:27:10 --> Undefined variable: row
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Views/Penghuni/index.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(230): include('/home/egan06/ku...')
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(25): view()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+ERROR - 2021-06-20 11:08:45 --> Error connecting to the database: Unknown database 'ci_paket'
+CRITICAL - 2021-06-20 11:08:45 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci_paket'
+#0 C:\xampp\htdocs\pra-ass\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pra-ass\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pra-ass\app\Models\M_Penghuni.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pra-ass\app\Controllers\Penghuni.php(19): App\Models\M_Penghuni->getAllData()
+#4 C:\xampp\htdocs\pra-ass\system\CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#5 C:\xampp\htdocs\pra-ass\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penghuni))
+#6 C:\xampp\htdocs\pra-ass\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pra-ass\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pra-ass\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-06-20 11:15:09 --> Error connecting to the database: Unknown database 'ci_paket'
+CRITICAL - 2021-06-20 11:15:09 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci_paket'
+#0 C:\xampp\htdocs\pra-ass\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pra-ass\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pra-ass\app\Models\M_Penghuni.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pra-ass\app\Controllers\Penghuni.php(19): App\Models\M_Penghuni->getAllData()
+#4 C:\xampp\htdocs\pra-ass\system\CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#5 C:\xampp\htdocs\pra-ass\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penghuni))
+#6 C:\xampp\htdocs\pra-ass\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pra-ass\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pra-ass\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-06-20 11:34:48 --> Error connecting to the database: Unknown database 'ci_paket'
+CRITICAL - 2021-06-20 11:34:48 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'ci_paket'
+#0 C:\xampp\htdocs\pra_assessment_talitha\system\Database\BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\pra_assessment_talitha\system\Database\BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\pra_assessment_talitha\app\Models\M_Penghuni.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\pra_assessment_talitha\app\Controllers\Penghuni.php(19): App\Models\M_Penghuni->getAllData()
+#4 C:\xampp\htdocs\pra_assessment_talitha\system\CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#5 C:\xampp\htdocs\pra_assessment_talitha\system\CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Penghuni))
+#6 C:\xampp\htdocs\pra_assessment_talitha\system\CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\pra_assessment_talitha\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\pra_assessment_talitha\system\Commands\Server\rewrite.php(45): require_once('C:\\xampp\\htdocs...')
+#9 {main}

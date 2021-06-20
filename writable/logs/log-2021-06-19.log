@@ -1,0 +1,288 @@
+CRITICAL - 2021-06-19 16:39:54 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 /home/egan06/kuliah/pengweb/pra ass/system/CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /home/egan06/kuliah/pengweb/pra ass/system/CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/egan06/kuliah/pengweb/pra ass/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 /home/egan06/kuliah/pengweb/pra ass/spark(46): require('/home/egan06/ku...')
+#4 {main}
+CRITICAL - 2021-06-19 16:40:13 --> The framework needs the following extension(s) installed and loaded: curl, intl.
+#0 /home/egan06/kuliah/pengweb/pra ass/system/CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /home/egan06/kuliah/pengweb/pra ass/system/CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/egan06/kuliah/pengweb/pra ass/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 /home/egan06/kuliah/pengweb/pra ass/spark(46): require('/home/egan06/ku...')
+#4 {main}
+CRITICAL - 2021-06-19 16:44:00 --> The framework needs the following extension(s) installed and loaded: curl.
+#0 /home/egan06/kuliah/pengweb/pra ass/system/CodeIgniter.php(228): CodeIgniter\Exceptions\FrameworkException::forMissingExtension()
+#1 /home/egan06/kuliah/pengweb/pra ass/system/CodeIgniter.php(180): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 /home/egan06/kuliah/pengweb/pra ass/system/bootstrap.php(157): CodeIgniter\CodeIgniter->initialize()
+#3 /home/egan06/kuliah/pengweb/pra ass/spark(46): require('/home/egan06/ku...')
+#4 {main}
+CRITICAL - 2021-06-19 16:37:54 --> Invalid file: home/index.php
+#0 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Home.php(9): view()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Home->index()
+#4 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#8 {main}
+CRITICAL - 2021-06-19 17:29:38 --> Invalid file: penghuni/index.php
+#0 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(19): view()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#4 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#8 {main}
+CRITICAL - 2021-06-19 17:29:57 --> Invalid file: penghuni/index.php
+#0 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(19): view()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#4 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#8 {main}
+CRITICAL - 2021-06-19 17:30:35 --> Invalid file: penghuni/index.php
+#0 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(19): view()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#4 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#8 {main}
+CRITICAL - 2021-06-19 17:30:36 --> Invalid file: penghuni/index.php
+#0 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(19): view()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#4 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#8 {main}
+CRITICAL - 2021-06-19 17:31:44 --> Invalid file: penghuni/index.php
+#0 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(213): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#2 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(19): view()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#4 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#8 {main}
+CRITICAL - 2021-06-19 17:33:05 --> Class 'App\Controllers\Controller' not found
+#0 /home/egan06/kuliah/pengweb/pra-ass/system/Router/Router.php(566): include_once()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/Router/Router.php(169): CodeIgniter\Router\Router->autoRoute()
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(809): CodeIgniter\Router\Router->handle()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(389): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#7 {main}
+CRITICAL - 2021-06-19 17:46:15 --> Class 'App\Models\M_Penghuni' not found
+#0 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#5 {main}
+ERROR - 2021-06-19 17:50:37 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-06-19 17:50:37 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/egan06/kuliah/pengweb/pra-ass/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/egan06/kuliah/pengweb/pra-ass/app/Models/M_Penghuni.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(17): App\Models\M_Penghuni->getAllData()
+#4 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#9 {main}
+CRITICAL - 2021-06-19 17:54:26 --> Class 'CodeIgniter\Database\MySQL\Connection' not found
+#0 /home/egan06/kuliah/pengweb/pra-ass/system/Database/Database.php(69): CodeIgniter\Database\Database->initDriver()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/Database/Config.php(86): CodeIgniter\Database\Database->load()
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(370): CodeIgniter\Database\Config::connect()
+#3 /home/egan06/kuliah/pengweb/pra-ass/app/Models/M_Penghuni.php(11): db_connect()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(13): App\Models\M_Penghuni->__construct()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+CRITICAL - 2021-06-19 17:54:27 --> Class 'CodeIgniter\Database\MySQL\Connection' not found
+#0 /home/egan06/kuliah/pengweb/pra-ass/system/Database/Database.php(69): CodeIgniter\Database\Database->initDriver()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/Database/Config.php(86): CodeIgniter\Database\Database->load()
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(370): CodeIgniter\Database\Config::connect()
+#3 /home/egan06/kuliah/pengweb/pra-ass/app/Models/M_Penghuni.php(11): db_connect()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(13): App\Models\M_Penghuni->__construct()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+ERROR - 2021-06-19 17:54:31 --> Error connecting to the database: No such file or directory
+CRITICAL - 2021-06-19 17:54:31 --> Unable to connect to the database.
+Main connection [MySQLi]: No such file or directory
+#0 /home/egan06/kuliah/pengweb/pra-ass/system/Database/BaseConnection.php(625): CodeIgniter\Database\BaseConnection->initialize()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/Database/BaseBuilder.php(1881): CodeIgniter\Database\BaseConnection->query()
+#2 /home/egan06/kuliah/pengweb/pra-ass/app/Models/M_Penghuni.php(16): CodeIgniter\Database\BaseBuilder->get()
+#3 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(17): App\Models\M_Penghuni->getAllData()
+#4 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#9 {main}
+CRITICAL - 2021-06-19 17:54:50 --> Undefined variable: penghuni
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Views/Penghuni/index.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(230): include('/home/egan06/ku...')
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(23): view()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+CRITICAL - 2021-06-19 17:55:08 --> Undefined variable: penghuni
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Views/Penghuni/index.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(230): include('/home/egan06/ku...')
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(23): view()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+CRITICAL - 2021-06-19 17:56:04 --> Undefined variable: tb_penghuni
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Views/Penghuni/index.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(230): include('/home/egan06/ku...')
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(23): view()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+CRITICAL - 2021-06-19 17:56:05 --> Undefined variable: tb_penghuni
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Views/Penghuni/index.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(230): include('/home/egan06/ku...')
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(23): view()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+CRITICAL - 2021-06-19 17:56:05 --> Undefined variable: tb_penghuni
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Views/Penghuni/index.php(8): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(230): include('/home/egan06/ku...')
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(23): view()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+CRITICAL - 2021-06-19 18:06:28 --> Undefined variable: penghuni
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Views/Penghuni/index.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(230): include('/home/egan06/ku...')
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(23): view()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+CRITICAL - 2021-06-19 18:06:46 --> Undefined variable: Penghuni
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Views/Penghuni/index.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(230): include('/home/egan06/ku...')
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(23): view()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+CRITICAL - 2021-06-19 18:06:58 --> Undefined variable: M_Penghuni
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Views/Penghuni/index.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(230): include('/home/egan06/ku...')
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/View/View.php(232): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/Common.php(1271): CodeIgniter\View\View->render()
+#4 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(23): view()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#6 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#7 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#10 {main}
+CRITICAL - 2021-06-19 19:07:03 --> Undefined property: App\Controllers\Penghuni::$model
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->index()
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#6 {main}
+CRITICAL - 2021-06-19 19:33:24 --> Undefined property: App\Controllers\Penghuni::$load
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->tambah()
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#6 {main}
+CRITICAL - 2021-06-19 19:47:46 --> Undefined property: App\Controllers\Penghuni::$load
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->tambah()
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#6 {main}
+CRITICAL - 2021-06-19 19:47:53 --> Undefined property: App\Controllers\Penghuni::$load
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->tambah()
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#6 {main}
+CRITICAL - 2021-06-19 19:52:02 --> Undefined property: App\Controllers\Penghuni::$load
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(32): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->tambah()
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#6 {main}
+CRITICAL - 2021-06-19 19:52:16 --> Undefined property: App\Controllers\Penghuni::$load
+#0 /home/egan06/kuliah/pengweb/pra-ass/app/Controllers/Penghuni.php(33): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(928): App\Controllers\Penghuni->tambah()
+#2 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(436): CodeIgniter\CodeIgniter->runController()
+#3 /home/egan06/kuliah/pengweb/pra-ass/system/CodeIgniter.php(336): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/egan06/kuliah/pengweb/pra-ass/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 /home/egan06/kuliah/pengweb/pra-ass/system/Commands/Server/rewrite.php(45): require_once('/home/egan06/ku...')
+#6 {main}
